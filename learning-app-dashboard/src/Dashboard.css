@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .dashboard {
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    color: #000;
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .overview {
+    color: #000;
+    flex: 2;
+    margin-right: 1rem;
+  }
+  
+  .overview .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .overview .card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+  
+  .recent-activity {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-activity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activity ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .recent-activity ul li:last-child {
+    border-bottom: none;
+  }
